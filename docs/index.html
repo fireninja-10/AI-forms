@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Agent Downloader</title>
+    <meta
+      name="description"
+      content="Page de téléchargement prête à publier sur GitHub pour ton projet AI Agent."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="background-grid"></div>
+
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">AI Agent</p>
+        <h1>Télécharge ton agent IA depuis une page propre, simple et prête pour Git.</h1>
+        <p class="hero-text">
+          Cette page est pensée pour être mise directement dans un repo et publiée sur GitHub Pages.
+          Tu peux changer les liens de téléchargement, le texte et les versions en quelques secondes.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#downloads">Télécharger</a>
+          <a class="secondary-button" href="#install">Guide rapide</a>
+        </div>
+      </div>
+
+      <div class="hero-panel">
+        <div class="panel-row">
+          <span class="panel-label">Version</span>
+          <span class="panel-value" id="currentVersion">v1.0.0</span>
+        </div>
+        <div class="panel-row">
+          <span class="panel-label">Dernière mise à jour</span>
+          <span class="panel-value" id="lastUpdated">2026-05-06</span>
+        </div>
+        <div class="panel-row">
+          <span class="panel-label">Statut</span>
+          <span class="panel-value live">Prêt à télécharger</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="downloads" id="downloads">
+        <div class="section-heading">
+          <p class="eyebrow">Downloads</p>
+          <h2>Choisis ton format</h2>
+          <p>
+            Les cartes ci-dessous sont éditables dans `docs/script.js`. Remplace juste les liens par
+            tes vrais fichiers GitHub Releases, Drive, S3 ou autre.
+          </p>
+        </div>
+
+        <div class="download-grid" id="downloadGrid"></div>
+      </section>
+
+      <section class="features">
+        <div class="section-heading">
+          <p class="eyebrow">Pourquoi cette page</p>
+          <h2>Faite pour publier vite</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>GitHub Pages compatible</h3>
+            <p>Pas besoin de backend juste pour afficher les téléchargements et la doc rapide.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Liens faciles à modifier</h3>
+            <p>Tu peux changer les boutons sans toucher à toute la mise en page.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Style déjà prêt</h3>
+            <p>Le site a déjà une direction visuelle sombre, nette et moderne.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="install" id="install">
+        <div class="section-heading">
+          <p class="eyebrow">Installation</p>
+          <h2>Mise en ligne en 3 étapes</h2>
+        </div>
+
+        <div class="steps">
+          <article class="step">
+            <span class="step-number">1</span>
+            <p>Push le dossier `docs/` dans ton repo GitHub.</p>
+          </article>
+          <article class="step">
+            <span class="step-number">2</span>
+            <p>Active GitHub Pages depuis les paramètres du repo, source `main` puis dossier `docs`.</p>
+          </article>
+          <article class="step">
+            <span class="step-number">3</span>
+            <p>Remplace les liens de téléchargement dans `docs/script.js` par tes vrais fichiers.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <section class="widget" id="widget">
+      <div class="widget-header" id="dragHandle">
+        <div class="widget-title-wrap">
+          <div class="widget-orb"></div>
+          <div>
+            <p class="widget-title">AI Agent Box</p>
+            <p class="widget-status" id="widgetStatus">On</p>
+          </div>
+        </div>
+        <button class="switch" id="powerSwitch" type="button" aria-label="Activer ou desactiver">
+          <span class="switch-thumb"></span>
+        </button>
+      </div>
+
+      <div class="widget-body">
+        <p>
+          Cette boîte peut être déplacée en cliquant sur l’en-tête. Elle sert ici d’élément visuel pour
+          ton site downloader.
+        </p>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
