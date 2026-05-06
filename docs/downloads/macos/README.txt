@@ -1,8 +1,8 @@
 AI Agent - macOS Pack
 
-Ce pack de demonstration est inclus pour rendre le site de telechargement fonctionnel sur GitHub Pages.
+Ce pack contient maintenant un bundle macOS de démonstration :
+- AI Agent.app
 
-Remplacement plus tard :
-- ton vrai build macOS
-- tes notes de version
-- ton guide d'installation
+Note :
+- c'est une démo locale, pas une application signée
+- macOS peut demander une confirmation d'ouverture

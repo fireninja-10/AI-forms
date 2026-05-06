@@ -1,0 +1,6 @@
+#!/bin/zsh
+DIR="$(cd "$(dirname "$0")/.." && pwd)"
+osascript <<APPLESCRIPT
+set appMessage to "AI Agent demo macOS\n\nCe bundle est une démo téléchargée depuis le site GitHub Pages.\n\nProjet: AI-forms\nDossier: " & POSIX path of "$DIR"
+display dialog appMessage buttons {"OK"} default button "OK" with title "AI Agent"
+APPLESCRIPT
