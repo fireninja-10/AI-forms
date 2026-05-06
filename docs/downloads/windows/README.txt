@@ -1,8 +1,8 @@
 AI Agent - Windows Pack
 
-Ce pack de demonstration est inclus pour rendre le site de telechargement fonctionnel sur GitHub Pages.
+Ce pack contient maintenant un lanceur Windows de demonstration :
+- Launch AI Agent.bat
 
-Remplacement plus tard :
-- ton vrai build Windows
-- tes notes de version
-- ton guide d'installation
+Note :
+- c'est une demo, pas une application Windows compilee
+- double-clique le fichier .bat pour lancer le message de test

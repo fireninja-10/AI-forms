@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=AI Agent
+Comment=AI Agent demo launcher
+Exec=sh -c "./ai-agent.sh"
+Terminal=true
+Categories=Utility;

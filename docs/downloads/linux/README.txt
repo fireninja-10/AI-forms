@@ -1,8 +1,9 @@
 AI Agent - Linux Pack
 
-Ce pack de demonstration est inclus pour rendre le site de telechargement fonctionnel sur GitHub Pages.
+Ce pack contient maintenant un lanceur Linux de demonstration :
+- ai-agent.sh
+- ai-agent.desktop
 
-Remplacement plus tard :
-- ton vrai build Linux
-- tes notes de version
-- ton guide d'installation
+Note :
+- c'est une demo, pas une AppImage signee
+- lance `chmod +x ai-agent.sh` puis `./ai-agent.sh`
